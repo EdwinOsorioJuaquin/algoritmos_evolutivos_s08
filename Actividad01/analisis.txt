@@ -1,0 +1,24 @@
+ANÁLISIS COMPARATIVO DE REPRESENTACIONES CROMOSÓMICAS
+
+Se han ejecutado las tres representaciones cromosómicas: Binaria, Real y Permutacional, con el objetivo de distribuir equitativamente a 39 alumnos en 3 exámenes (A, B y C) en función de sus notas.
+
+1. EQUILIBRIO ENTRE GRUPOS (Desviación Estándar entre Promedios)
+- Binaria:         0.0363
+- Permutacional:   0.0363
+- Real:            0.0363
+
+Todas las representaciones lograron una excelente distribución equitativa con una desviación estándar mínima entre los promedios de notas por grupo.
+
+2. CONVERGENCIA (Generaciones hasta mejora)
+- Binaria:         Mejora rápida hasta generación 20, sin cambios posteriores.
+- Permutacional:   Mejora sostenida hasta generación 20-30. Mejora total del fitness: 70.2%
+- Real:            No mejora después de la generación 0 (fitness constante = -1.0911)
+
+La representación Permutacional mostró una mejor convergencia y evolución del fitness a lo largo del tiempo. La Binaria fue rápida en estabilizarse, pero sin mejoras posteriores. La Real no mejoró su fitness a lo largo de las generaciones.
+
+3. CONCLUSIONES
+- Mejor equilibrio: EMPATE entre las tres representaciones (misma desviación).
+- Convergencia más efectiva: REPRESENTACIÓN PERMUTACIONAL.
+- Estabilidad sin mejora: REPRESENTACIÓN REAL.
+
+La representación permutacional resulta ser la más efectiva en esta práctica, debido a su buena evolución del fitness y capacidad para mantener el equilibrio. La binaria logra buen equilibrio, pero podría estancarse rápidamente. La real necesita mejoras en su función de mutación/cruce o ajustes en parámetros para mejorar su rendimiento evolutivo.
